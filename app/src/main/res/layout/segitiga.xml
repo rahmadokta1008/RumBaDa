@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Menghitung Luas Segitiga"
+        android:textSize="30dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_gravity="center"
+        android:src="@drawable/rumus_segitiga" />
+
+    <TextView
+        android:text="Alas :"
+        android:id="@+id/TextView01"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtAlas"
+        android:layout_width="247dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:text="" />
+
+    <TextView
+        android:text="Tinggi :"
+        android:id="@+id/TextView02"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtTinggi"
+        android:layout_gravity="center"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:inputType="numberSigned|numberDecimal"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="hitungLuas"
+        android:layout_gravity="center"
+        android:text="Hitung Luas" />
+
+    <TextView
+        android:text="Luas :"
+        android:id="@+id/TextView03"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtLuas"
+        android:layout_width="294dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="" />
+
+    <Button
+        android:text="Kembali ke Menu"
+        android:id="@+id/btnBack"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:paddingRight="30dp"
+        android:onClick="backtoMenu" />
+
+</LinearLayout>

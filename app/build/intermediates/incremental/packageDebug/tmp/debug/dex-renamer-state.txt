@@ -1,0 +1,7 @@
+#Wed Sep 11 14:23:14 ICT 2019
+base.0=F\:\\KULIAH\\MyApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=F\:\\KULIAH\\MyApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

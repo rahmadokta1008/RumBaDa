@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Menghitung Luas Lingkaran"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <ImageView
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_gravity="center"
+        android:src="@drawable/rumuslingkaran"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Jari-jari :"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <EditText
+        android:id="@+id/txtJari"
+        android:layout_width="240dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:text=""
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="hitungLuas"
+        android:text="Hitung Luas"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Luas :"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <EditText
+        android:id="@+id/txtLuas"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="backtoMenu"
+        android:paddingRight="30dp"
+        android:text="Kembali ke Menu"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="371dp" />
+</LinearLayout>

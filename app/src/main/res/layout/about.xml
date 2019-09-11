@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="APLIKASI RUMUS RUANG DATAR"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Anggota Kelompok :"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Rhama Shandy                          1717051018"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Rahmad Okta Khoirul              1717051008"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Taufik Jaka Lesmana              1717051068"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Muhammad Reza Anggara     1717051044"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:onClick="backtoMenu"
+        android:text="Kembali ke Menu" />
+
+
+    <Button
+        android:id="@+id/btnFragment"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Info" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="40dp"
+        android:id="@+id/frame_layout">
+
+    </FrameLayout>
+
+</LinearLayout>

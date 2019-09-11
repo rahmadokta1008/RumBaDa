@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".MenuBangunDatar">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:text="DAFTAR BANGUN DATAR"
+    android:textColor="@color/colorAccent"
+    android:textSize="30dp"
+    android:gravity="center" />
+
+
+    <Button
+        android:id="@+id/btnpersegi"
+        android:layout_marginTop="100dp"
+        android:layout_width="160dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="PERSEGI PANJANG" />
+
+    <Button
+        android:id="@+id/btnsegitiga"
+        android:layout_width="160dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="SEGITIGA " />
+
+    <Button
+        android:id="@+id/btnlingkaran"
+        android:layout_width="160dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="LINGKARAN " />
+
+    <Button
+        android:id="@+id/btntentang"
+        android:layout_width="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="TENTANG"
+
+        />
+
+
+
+</LinearLayout>
